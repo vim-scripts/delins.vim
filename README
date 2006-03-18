@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1500
+
+This script I use for marking changes in text files with the html ins and del tags.
+
+To mark something something to insert past the current char press <F5> in normal mode.  "<ins></ins>" appears. The caret is where you would expect it in insert mode.
+
+To mark something to be deleted mark it in visual mode and press
+D.  "<del>...</del>" appears around it.
+
+For convenience R (replace) in visual mode is bound to D<F5>.
